@@ -42,7 +42,10 @@ function App() {
 					</h1>
 					{/* STRETCH toggle for dark mode */}
 					<div className={darkMode ? "dark-mode dark-mode__toggle" : "dark-mode__toggle"}>
-						<div onClick={toggleMode} className={darkMode ? "toggle toggled" : "toggle"} />
+						<div
+							onClick={toggleMode}
+							className={darkMode ? "dark-mode toggle toggled" : "toggle"}
+						/>
 					</div>
 					<ul className="steps">
 						<li>
